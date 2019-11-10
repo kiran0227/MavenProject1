@@ -28,6 +28,15 @@
             <artifactId>ozark</artifactId>
             <version>1.0.0-m02</version>
         </dependency>
+		<dependency>
+			 <groupId>org.apache.tomcat.maven</groupId>
+            <artifactId>tomcat9-maven-plugin</artifactId>
+            <version>1.4</version>
+            <configuration>
+                <url>http://192.168.132.134:8080/manager</url>
+                <server>192.168.132.134</server>
+            </configuration>
+		</dependency>
     </dependencies>
     <build>
         <plugins>
